@@ -30,7 +30,7 @@ translation_matrix2=np.array(
 )
 composition=translation_matrix2 @ (rotation_matrix @ translation_matrix1)
 
-new_img=np.ones((int(diagonal_length),int(diagonal_length)),dtype=np.uint8)*255
+new_img=np.ones((int(diagonal_length),int(diagonal_length)),dtype=np.uint8)
 
 for x in range(shape[0]):
     for y in range(shape[1]):
